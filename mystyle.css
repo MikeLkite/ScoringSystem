@@ -1,0 +1,400 @@
+body{
+     background-color: #cdddf7;
+}
+ h1{
+     color: #ea9d38;
+     text-shadow: 3px 3px black;
+     font-family: sans-serif;
+     font-size: 50px;
+}
+ h2{
+     color: Black;
+     font-family: sans-serif;
+     font-size: 26px;
+}
+ .TopBar1 {
+     position: fixed;
+     margin-left: -10px;
+     padding-bottom: 5px;
+     width: 100%;
+     height: 100px;
+     text-align: center;
+     background-color: #586F7C;
+     border: 3px solid black;
+}
+ .ButtonBox1 {
+     position: fixed;
+     width: auto;
+}
+ .MissButton {
+     position: absolute;
+     margin-left: 10px;
+     user-select: none;
+     -moz-user-select: none;
+     -khtml-user-select: none;
+     -webkit-user-select: none;
+     -o-user-select: none;
+     color: #960707;
+     font-family: sans-serif;
+     font-size: 200px;
+     font-weight: bold;
+     text-align: center;
+     vertical-align: middle;
+     line-height: 200px;
+     border-radius: 5px;
+     margin-top: 120px;
+     height: 200px;
+     width: 200px;
+     border: 3px solid #333;
+     box-shadow: 2px 2px 1px #444;
+     padding: 10px 15px;
+     background-color: #586F7C;
+     text-shadow: 5px 5px black;
+     transition: 0.5s;
+}
+ .MissButton:hover {
+     background-color: #960707;
+     color: white;
+     text-shadow: 2px 2px black;
+     box-shadow: 5px 5px 5px #444;
+     transform: translateX(4px)
+}
+ .MissButton:active {
+     background-color: #B8DBD9;
+     color: #586F7C;
+     box-shadow: 2px 2px 1px #444;
+     transform: translateY(4px);
+}
+ .HitButton {
+     position: absolute;
+     margin-left: 10px;
+     user-select: none;
+     -moz-user-select: none;
+     -khtml-user-select: none;
+     -webkit-user-select: none;
+     -o-user-select: none;
+     color: #04724D;
+     font-family: sans-serif;
+     font-size: 200px;
+     font-weight: bold;
+     text-align: center;
+     vertical-align: middle;
+     line-height: 200px;
+     border-radius: 5px;
+     margin-top: 360px;
+     height: 200px;
+     width: 200px;
+     border: 3px solid #333;
+     box-shadow: 2px 2px 1px #444;
+     padding: 10px 15px;
+     background-color: #586F7C;
+     text-shadow: 5px 5px black;
+     transition: 0.5s;
+}
+ .HitButton:hover {
+     background-color: #04724D;
+     color: white;
+     text-shadow: 2px 2px black;
+     box-shadow: 5px 5px 5px #444;
+     transform: translateX(4px)
+}
+ .HitButton:active {
+     background-color: #e0beba;
+     color: #586F7C;
+     box-shadow: 2px 2px 1px #444;
+     transform: translateY(4px);
+}
+ .footer {
+     background-color: Black;
+     position: absolute;
+     margin-top: 800px;
+     height: 100%;
+     width: 100%;
+     border: 1px black;
+}
+ .ScoreCard {
+     position: fixed;
+     margin-left: 260px;
+     user-select: none;
+     -moz-user-select: none;
+     -khtml-user-select: none;
+     -webkit-user-select: none;
+     -o-user-select: none;
+     color: black;
+     font-family: sans-serif;
+     font-size: 15px;
+     font-weight: bold;
+     text-align: center;
+     border-radius: 5px;
+     margin-top: 120px;
+     height: 450px;
+     width: 80%;
+     border: 3px solid #333;
+     box-shadow: 2px 2px 1px #444;
+     padding: 5px 5px;
+     background-color: #dce0e8;
+}
+ .score_table {
+     position: absolute;
+     width: 99%;
+     height: 98%;
+     background-color: white;
+}
+ .score_table tr {
+     margin: 10px ;
+     padding:4px;
+}
+ table {
+     border: 1px solid black;
+     table-layout: fixed;
+     width: 100px;
+}
+ .R1_26 {
+     background-color: black;
+     color: white;
+}
+ .R2_26 {
+     background-color: black;
+     color: white;
+}
+ .R3_26 {
+     background-color: black;
+     color: white;
+}
+ .R4_26 {
+     background-color: black;
+     color: white;
+}
+ .R1_1 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_2 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_3 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_4 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_1 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_2 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_3 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_4 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_1 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_2 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_3 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_4 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_1 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_2 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_3 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_4 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_9 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_10 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_9 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_10 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_9 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_10 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_9 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_10 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_15 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_16 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_15 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_16 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_15 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_16 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_15 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_16 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_21 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_22 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_23 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_24 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_21 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_22 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_23 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R2_24 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_21 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_22 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_23 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R3_24 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_21 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_22 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_23 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R4_24 {
+     background-color: #edf3ff;
+     color: black;
+}
+ .R1_25 {
+     background-color: #d6d6d6;
+     color: black;
+}
+ .R2_25 {
+     background-color: #d6d6d6;
+     color: black;
+}
+ .R3_25 {
+     background-color: #d6d6d6;
+     color: black;
+}
+ .R4_25 {
+     background-color: #d6d6d6;
+     color: black;
+}
+ .ScoreHead, th{
+     background-color: #434547;
+     color: white;
+     height: 40px;
+     font-size: 12px;
+     border: 2px solid black;
+}
+ .round_one, td {
+     background-color: #d6d6d6;
+     height: 40px;
+     border: 2px solid black;
+}
+ .round_two {
+     background-color: #d6d6d6;
+     height: 50px;
+}
+ .round_three {
+     background-color: #d6d6d6;
+     height: 50px;
+}
+ .round_four {
+     background-color: #d6d6d6;
+     height: 50px;
+}
+ 
