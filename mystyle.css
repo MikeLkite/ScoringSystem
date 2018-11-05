@@ -6,7 +6,7 @@ h1 {
   color: #ea9d38;
   text-shadow: 3px 3px black;
   font-family: sans-serif;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 h2 {
@@ -14,142 +14,192 @@ h2 {
   font-family: sans-serif;
   font-size: 26px;
 }
+
 h3 {
   font-size: 35px;
-  colour: red;
+  color: #50f442;
+  text-shadow: 1px 1px black;
 }
 
 .TopBar1 {
   position: fixed;
-  margin-left: -10px;
-  padding-bottom: 5px;
   width: 100%;
   height: 100px;
+  margin-left: -10px;
+  padding-bottom: 5px;
   text-align: center;
-  background-color: #586F7C;
   border: 3px solid black;
+  background-color: #586f7c;
 }
 
 .ButtonBox1 {
-  position: fixed;
+  position: absolute;
   width: auto;
+  margin-top: 5px;
 }
 
+
+
 .MissButton {
-  position: absolute;
-  margin-left: 10px;
-  user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  -o-user-select: none;
-  color: #960707;
   font-family: sans-serif;
   font-size: 200px;
   font-weight: bold;
+  line-height: 200px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  padding: 10px 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  transition: .5s;
   text-align: center;
   vertical-align: middle;
-  line-height: 200px;
-  border-radius: 5px;
-  margin-top: 120px;
-  height: 200px;
-  width: 200px;
+  color: #960707;
   border: 3px solid #333;
+  border-radius: 5px;
+  background-color: #586f7c;
   box-shadow: 2px 2px 1px #444;
-  padding: 10px 15px;
-  background-color: #586F7C;
   text-shadow: 5px 5px black;
-  transition: 0.5s;
+  -khtml-user-select: none;
+  -o-user-select: none;
 }
 
 .MissButton:hover {
-  background-color: #960707;
+  transform: translateX(4px);
   color: white;
-  text-shadow: 2px 2px black;
+  background-color: #960707;
   box-shadow: 5px 5px 5px #444;
-  transform: translateX(4px)
+  text-shadow: 2px 2px black;
 }
 
 .MissButton:active {
-  background-color: #B8DBD9;
-  color: #586F7C;
-  box-shadow: 2px 2px 1px #444;
   transform: translateY(4px);
+  color: #586f7c;
+  background-color: #b8dbd9;
+  box-shadow: 2px 2px 1px #444;
 }
 
 .HitButton {
-  position: absolute;
-  margin-left: 10px;
-  user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  -o-user-select: none;
-  color: #04724D;
   font-family: sans-serif;
   font-size: 200px;
   font-weight: bold;
+  line-height: 200px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-top: 235px;
+  margin-left: 10px;
+  padding: 10px 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  transition: .5s;
   text-align: center;
   vertical-align: middle;
-  line-height: 200px;
-  border-radius: 5px;
-  margin-top: 360px;
-  height: 200px;
-  width: 200px;
+  color: #04724d;
   border: 3px solid #333;
+  border-radius: 5px;
+  background-color: #586f7c;
   box-shadow: 2px 2px 1px #444;
-  padding: 10px 15px;
-  background-color: #586F7C;
   text-shadow: 5px 5px black;
-  transition: 0.5s;
+  -khtml-user-select: none;
+  -o-user-select: none;
 }
 
 .HitButton:hover {
-  background-color: #04724D;
+  transform: translateX(4px);
   color: white;
-  text-shadow: 2px 2px black;
+  background-color: #04724d;
   box-shadow: 5px 5px 5px #444;
-  transform: translateX(4px)
+  text-shadow: 2px 2px black;
 }
 
 .HitButton:active {
-  background-color: #e0beba;
-  color: #586F7C;
-  box-shadow: 2px 2px 1px #444;
   transform: translateY(4px);
+  color: #586f7c;
+  background-color: #e0beba;
+  box-shadow: 2px 2px 1px #444;
 }
 
+
 .footer {
-  background-color: Black;
   position: absolute;
-  margin-top: 800px;
-  height: 100%;
   width: 100%;
+  height: 100%;
+  margin-top: 800px;
   border: 1px black;
+  background-color: Black;
 }
 
 .ScoreCard {
-  position: fixed;
-  margin-left: 260px;
-  user-select: none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
-  -o-user-select: none;
-  color: black;
   font-family: sans-serif;
   font-size: 15px;
   font-weight: bold;
-  text-align: center;
-  border-radius: 5px;
-  margin-top: 120px;
-  height: 450px;
+  position: fixed;
   width: 80%;
-  border: 3px solid #333;
-  box-shadow: 2px 2px 1px #444;
+  height: 450px;
+  margin-top: 1px;
+  margin-left: 260px;
   padding: 5px 5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  text-align: center;
+  color: black;
+  border: 3px solid #333;
+  border-radius: 5px;
   background-color: #dce0e8;
+  box-shadow: 2px 2px 1px #444;
+  -khtml-user-select: none;
+  -o-user-select: none;
 }
+
+
+.score_table2 {
+  position: absolute;
+  width: 99%;
+  height: 98%;
+  background-color: white;
+}
+
+.score_table2 tr {
+  margin: 10px;
+  padding: 4px;
+}
+
+table {
+  width: 100px;
+  table-layout: fixed;
+  border: 1px solid black;
+}
+
+
+.ScoreCard2 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  position: fixed;
+  width: 80%;
+  height: 600px;
+  margin-top: 1px;
+  margin-left: 260px;
+  padding: 5px 5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  text-align: center;
+  color: black;
+  border: 3px solid #333;
+  border-radius: 5px;
+  background-color: #dce0e8;
+  box-shadow: 2px 2px 1px #444;
+  -khtml-user-select: none;
+  -o-user-select: none;
+}
+
+
 
 .score_table {
   position: absolute;
@@ -164,320 +214,499 @@ h3 {
 }
 
 table {
-  border: 1px solid black;
-  table-layout: fixed;
   width: 100px;
+  table-layout: fixed;
+  border: 1px solid black;
+}
+
+.total {
+  font-size: 12px;
 }
 
 .R1_26 {
-  background-color: black;
   color: white;
+  background-color: black;
 }
 
 .R2_26 {
-  background-color: black;
   color: white;
+  background-color: black;
 }
 
 .R3_26 {
-  background-color: black;
   color: white;
+  background-color: black;
 }
 
 .R4_26 {
-  background-color: black;
   color: white;
+  background-color: black;
 }
 
 .R1_1 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_2 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_3 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_4 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_1 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_2 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_3 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_4 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_1 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_2 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_3 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_4 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_1 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_2 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_3 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_4 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_9 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_10 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_9 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_10 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_9 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_10 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_9 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_10 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_15 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_16 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_15 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_16 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_15 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_16 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_15 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_16 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_21 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_22 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_23 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_24 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_21 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_22 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_23 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R2_24 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_21 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_22 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_23 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R3_24 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_21 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_22 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_23 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R4_24 {
-  background-color: #edf3ff;
   color: #babec6;
+  background-color: #edf3ff;
 }
 
 .R1_25 {
-  background-color: #d6d6d6;
   color: white;
+  background-color: #d6d6d6;
 }
 
 .R2_25 {
+  color: white;
   background-color: #d6d6d6;
-  color: #babec6;
 }
 
 .R3_25 {
+  color: white;
   background-color: #d6d6d6;
-  color: #babec6;
 }
 
 .R4_25 {
-  background-color: #d6d6d6;
-  color: #babec6;
-}
-
-.ScoreHead, th {
-  background-color: #434547;
   color: white;
-  height: 40px;
-  font-size: 12px;
-  border: 2px solid black;
+  background-color: #d6d6d6;
 }
 
-.round_one, td {
-  background-color: #d6d6d6;
+.ScoreHead,
+th {
+  font-size: 20px;
   height: 40px;
+  color: white;
   border: 2px solid black;
-  font-size: 35px;
-  color: #bcbcbc;
+  background-color: #434547;
+}
 
+.round_one,
+td {
+  font-size: 35px;
+  height: 40px;
+  color: #bcbcbc;
+  border: 2px solid black;
+  background-color: #d6d6d6;
 }
 
 .round_two {
-  background-color: #d6d6d6;
-  height: 50px;
   font-size: 40px;
+  height: 50px;
+  background-color: #d6d6d6;
 }
 
 .round_three {
-  background-color: #d6d6d6;
   height: 50px;
+  background-color: #d6d6d6;
 }
 
 .round_four {
-  background-color: #d6d6d6;
   height: 50px;
+  background-color: #d6d6d6;
+}
+
+.Topbanner {
+  font-family: sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  position: absolute;
+  width: auto;
+  height: 85px;
+  margin-top: 5px;
+  margin-left: 280px;
+  padding-top: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  vertical-align: middle;
+  color: #e58900;
+  border: 1px solid black;
+  text-shadow: rgb(0, 0, 0) 2px 0 0, rgb(0, 0, 0) 1.75517px .958851px 0, rgb(0, 0, 0) 1.0806px 1.68294px 0, rgb(0, 0, 0) .141474px 1.99499px 0, rgb(0, 0, 0) -.832294px 1.81859px 0, rgb(0, 0, 0) -1.60229px 1.19694px 0, rgb(0, 0, 0) -1.97998px .28224px 0, rgb(0, 0, 0) -1.87291px -.701566px 0, rgb(0, 0, 0) -1.30729px -1.5136px 0, rgb(0, 0, 0) -.421592px -1.95506px 0, rgb(0, 0, 0) .567324px -1.91785px 0, rgb(0, 0, 0) 1.41734px -1.41108px 0, rgb(0, 0, 0) 1.92034px -.558831px 0;
+  -khtml-user-select: none;
+  -o-user-select: none;
+}
+
+.TotalScore {
+  font-family: sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  margin-top: 1px;
+  margin-left: 84.5%;
+  vertical-align: middle;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  text-shadow: rgb(255, 255, 255) 1px 0 0, rgb(255, 255, 255) .540302px .841471px 0, rgb(255, 255, 255) -.416147px .909297px 0, rgb(255, 255, 255) -.989992px .14112px 0, rgb(255, 255, 255) -.653644px -.756802px 0, rgb(255, 255, 255) .283662px -.958924px 0, rgb(255, 255, 255) .96017px -.279415px 0;
+}
+
+.TotalScore2 {
+  font-family: sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  margin-top: 1px;
+  margin-left: 84.5%;
+  vertical-align: middle;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: black;
+  text-shadow: rgb(255, 255, 255) 1px 0 0, rgb(255, 255, 255) .540302px .841471px 0, rgb(255, 255, 255) -.416147px .909297px 0, rgb(255, 255, 255) -.989992px .14112px 0, rgb(255, 255, 255) -.653644px -.756802px 0, rgb(255, 255, 255) .283662px -.958924px 0, rgb(255, 255, 255) .96017px -.279415px 0;
+}
+
+.MenuBurger {
+  font-family: sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  position: absolute;
+  width: 230px;
+  height: 80px;
+  margin-top: 7px;
+  margin-left: 1.2%;
+  padding-top: 5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  transition: .3s;
+  vertical-align: middle;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #104f89;
+  text-shadow: rgb(0, 0, 0) 2px 0 0, rgb(0, 0, 0) 1.75517px .958851px 0, rgb(0, 0, 0) 1.0806px 1.68294px 0, rgb(0, 0, 0) .141474px 1.99499px 0, rgb(0, 0, 0) -.832294px 1.81859px 0, rgb(0, 0, 0) -1.60229px 1.19694px 0, rgb(0, 0, 0) -1.97998px .28224px 0, rgb(0, 0, 0) -1.87291px -.701566px 0, rgb(0, 0, 0) -1.30729px -1.5136px 0, rgb(0, 0, 0) -.421592px -1.95506px 0, rgb(0, 0, 0) .567324px -1.91785px 0, rgb(0, 0, 0) 1.41734px -1.41108px 0, rgb(0, 0, 0) 1.92034px -.558831px 0;
+  -khtml-user-select: none;
+  -o-user-select: none;
+}
+
+.MenuBurger:hover {
+  transform: scale(1.1, 1.1);
+  background-color: #29890e;
+}
+
+.MenuBurger:active {
+  transform: translateY(4px);
+  background-color: #cccc12;
+}
+
+.MidMenu {
+  position: fixed;
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+  background-color: #cdddf7;
+}
+
+.MenuSelection {
+  font-family: sans-serif;
+  font-size: 40px;
+  width: auto;
+  height: auto;
+  margin-top: 120px;
+  margin-left: auto;
+  background-color: #cdddf7;
+}
+
+.Skeet {
+  font-family: sans-serif;
+  position: absolute;
+  background-color: #064204;
+  margin-top: 100px;
+  margin-left: 20px;
+  color: #ff6e00;
+  width: 31%;
+  height: 250px;
+  padding-top: 150px;
+  border: 2px black solid;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #444;
+  text-shadow: 5px 5px black;
+  font-size: 70px;
+  vertical-align: middle;
+  transition: 0.3s;
+}
+
+.Skeet:hover {
+  transform: scale(1.05, 1.05);
+  color: #ff54f0;
+  background-color: #29890e;
+}
+
+.Sporting {
+  font-family: sans-serif;
+  background-color: #064204;
+  color: #ff6e00;
+  position: absolute;
+  margin-top: 100px;
+  width: 31%;
+  height: 250px;
+  padding-top: 150px;
+  font-weight: bold;
+  margin-left: 34%;
+  border: 2px black solid;
+  box-shadow: 5px 5px 5px #444;
+  text-shadow: 5px 5px black;
+  border-radius: 10px;
+  font-size: 70px;
+  transition: 0.3s;
+}
+
+.Sporting:hover {
+  transform: scale(1.05, 1.05);
+  color: #ff54f0;
+  background-color: #29890e;
+}
+
+.ScoresMenu {
+  font-family: sans-serif;
+  position: absolute;
+  margin-top: 100px;
+  width: 30%;
+  height: 250px;
+  padding-top: 150px;
+  margin-left: 68%;
+  border: 2px black solid;
+  border-radius: 10px;
+  font-size: 70px;
+  transition: 0.3s;
+}
+
+.ScoresMenu:hover {
+  transform: scale(1.05, 1.05);
+  color: #08ff00;
+  background-color: #000000;
 }
