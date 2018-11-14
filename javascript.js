@@ -47,7 +47,7 @@ var sproundover = 0
 var standcount = 1
 
 $(document).ready(function() {
-
+  document.documentElement.webkitRequestFullScreen()
   $(".ScoreCard, .ButtonBox1, .ButtonBox1b, .ScoreCard2, .TotalScore, .StandSelect, .StandNumber, .MinusButton, .AddButton").hide();
   menutoggle++;
   console.log(menutoggle)

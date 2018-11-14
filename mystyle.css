@@ -284,6 +284,7 @@ h3 {
 .R1_25 {
   color: white;
   background-color: #d6d6d6;
+
 }
 
 .R2_25 {
@@ -376,15 +377,13 @@ h3 {
 
 .MissButton {
 
-  line-height: 140px;
   font-family: sans-serif;
-  font-size: 15vw;
+  font-size: 15vh;
   font-weight: bold;
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  right: 5%;
+  width: 25%;
   height: auto;
-  margin-top: 350%;
   padding: 5px 5px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -418,21 +417,21 @@ h3 {
 }
 
 .ButtonBox1b {
+  bottom:2%;
   position: fixed;
-  width: 15%;
-  height: 82%;
-  margin-left: 80%;
-  margin-top: 9%;
-  border: 1px solid red;
+  width: 95%;
+  height: 20%;
+  margin-left: 1%;
 }
 
 .HitButton {
+
+  left:5%;
   font-family: sans-serif;
-  font-size: 15vw;
+  font-size: 15vh;
   font-weight: bold;
-  line-height: 140px;
   position: absolute;
-  width: 100%;
+  width: 25%;
   height: auto;
   padding: 5px 5px;
   -webkit-user-select: none;
@@ -476,13 +475,14 @@ h3 {
 }
 
 .ScoreCard {
+  top:9%;
   font-family: sans-serif;
   font-size: 15px;
   font-weight: bold;
   position: fixed;
-  width: 77%;
-  height: 81%;
-  margin-top: 9%;
+  width: 95%;
+  height: 66%;
+
   margin-left: 2px;
   padding: 5px 5px;
   -webkit-user-select: none;
@@ -505,26 +505,46 @@ h3 {
   background-color: white;
 }
 
-.score_table2 tr {
-  margin: 10px;
-  padding: 4px;
-}
 
 table {
-  width: 100px;
+  width: auto;
   table-layout: fixed;
   border: 1px solid black;
-    border-spacing: 3px 4px;
+    border-spacing: 6px 10px;
 }
 
+th {
+  height: 10%;
+  width: auto;
+  font-size: 3vh;
+  color: white;
+  border: 2px solid black;
+  background-color: #434547;
+}
+
+td {
+  height: 5%;
+  width: 100%;
+  font-size: 3vh;
+  color: #bcbcbc;
+  border: 2px solid black;
+  background-color: #d6d6d6;
+}
+
+tr {
+  margin: 10px;
+  padding: 4px;
+    }
+
+
 .ScoreCard2 {
+  top:9%;
   font-family: sans-serif;
   font-size: 15px;
   font-weight: bold;
   position: fixed;
-  width: 77%;
-  height: 80%;
-  margin-top: 9%;
+  width: 95%;
+  height: 66%;
   margin-left: 2px;
   padding: 5px 5px;
   -webkit-user-select: none;
@@ -543,58 +563,32 @@ table {
 .score_table {
   position: absolute;
   width: 99%;
-  height: 98%;
+  height: 99%;
   background-color: white;
 }
 
-.score_table tr {
-  margin: 10px;
-  padding: 4px;
-}
 
-table {
-  width: 100px;
-  table-layout: fixed;
-  border: 1px solid black;
-}
+
+
 
 .total {
   font-size: 12px;
 }
 
 
-.ScoreHead,
-th {
-  font-size: 20px;
-  height: 40px;
-  color: white;
-  border: 2px solid black;
-  background-color: #434547;
-}
 
-.round_one,
-td {
-  font-size: 3vh;
-  height: 35px;
-  color: #bcbcbc;
-  border: 2px solid black;
-  background-color: #d6d6d6;
-}
+
 
 .round_two {
-  font-size: 40px;
-  height: 50px;
   background-color: #d6d6d6;
 }
 
 .round_three {
-  height: 50px;
   background-color: #d6d6d6;
 }
 
 .round_four {
-  height: 50px;
-  background-color: #d6d6d6;
+    background-color: #d6d6d6;
 }
 
 .Topbanner {
@@ -604,7 +598,7 @@ td {
   position: absolute;
   width: auto;
   height: auto;
-  margin-left: 280px;
+  margin-left: 35%;
   -webkit-user-select: none;
   -moz-user-select: none;
   vertical-align: middle;
@@ -616,14 +610,15 @@ td {
 }
 
 .TotalScore {
+  vertical-align: middle;
   font-family: sans-serif;
-  font-size: 3vw;
+  font-size: 11vw;
   font-weight: bold;
   position: absolute;
-  width: auto;
-  height: auto;
-  margin-left: 82%;
-  vertical-align: middle;
+  width: 25%;
+  height: 90%;
+  margin-left: 37%;
+  text-align: center;
   color: #50f442;
   border: 1px solid white;
   border-radius: 5px;
@@ -666,7 +661,6 @@ td {
 
 .MidMenu {
   position: fixed;
-  border: black 1px solid;
   width: 100%;
   height: 500px;
   background-color: #cdddf7;
@@ -683,6 +677,7 @@ td {
 }
 
 .Skeet {
+  padding-top: 2%;
   font-family: sans-serif;
   position: absolute;
   background-color: #064204;
@@ -690,7 +685,7 @@ td {
   margin-left: 20px;
   color: #ff6e00;
   width: 31%;
-  height: auto;
+  height: 20%;
   border: 2px black solid;
   font-weight: bold;
   border-radius: 10px;
@@ -708,13 +703,15 @@ td {
 }
 
 .Sporting {
+  padding-top: 2%;
+  vertical-align: middle;
   font-family: sans-serif;
   background-color: #064204;
   color: #ff6e00;
   position: absolute;
   margin-top: 10px;
   width: 31%;
-  height: auto;
+  height: 20%;
   font-weight: bold;
   margin-left: 34%;
   border: 2px black solid;
@@ -732,12 +729,13 @@ td {
 }
 
 .ScoresMenu {
+  padding-top: 2%;
   font-family: sans-serif;
   font-weight: bold;
   position: absolute;
   margin-top: 10px;
   width: 30%;
-  height: auto;
+  height: 20%;
   margin-left: 68%;
   border: 2px black solid;
   background-color: #0b81ef;
@@ -781,21 +779,20 @@ td {
 }
 
 .StandNumber {
+  vertical-align: middle;
+  text-align: center;
   line-height: 100px;
   vertical-align: middle;
   font-family: sans-serif;
   position: absolute;
   margin-top: 170px;
-  width: auto;
+  width: 20%;
   height: auto;
-  width: auto;
-  padding-left: 100px;
-  padding-right: 100px;
   margin-left: 75%;
   border: 2px black solid;
   background-color: white;
   border-radius: 10px;
-  font-size: 4vw;
+  font-size: 10vw;
   transition: 0.3s;
 }
 
